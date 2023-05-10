@@ -1,0 +1,84 @@
+:root {
+  --color-bg: #001e1d;
+  --color-card-bg: #004643;
+  --color-btn: #f9bc60;
+  --color-btn-text: #001e1d;
+  --color-headline: #fffffe;
+  --color-paragraph: #abd1c6;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-paragraph);
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Ubuntu, sans-serif;
+  color: var(--color-headline);
+  line-height: 1;
+}
+
+a {
+  color: var(--color-paragraph);
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: var(--color-bg);
+  color: var(--color-paragraph);
+}
+
+.btn-link {
+  background-color: var(--color-btn);
+  color: var(--color-btn-text);
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: var(--color-card-bg);
+  padding: 20px 10px 30px;
+  margin: 30px 20px;
+  border-radius: 5px;
+}
+
+.list-inline {
+  list-style: none;
+}
+
+.list-inline>li {
+  display: inline-block;
+  margin: 5px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.avatar {
+  border-radius: 5%;
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
