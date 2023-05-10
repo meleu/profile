@@ -55,16 +55,13 @@ a:hover {
 
 .list-inline {
   list-style: none;
+  padding: 0px;
 }
 
 .list-inline>li {
   display: inline-block;
-  margin: 5px;
-}
-
-.list-inline i {
-  font-size: 50px;
-  font-weight: 600;
+  padding: 0px 20px;
+  font-size: 60px;
 }
 
 .avatar {
