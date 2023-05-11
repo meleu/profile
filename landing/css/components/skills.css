@@ -1,0 +1,24 @@
+/* SKILLS */
+.skill-container {
+  width: 900px;
+  margin: auto
+}
+
+.skill-container .skill-cards-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.skill-cards-container .skill-card {
+  width: 200px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(200, 200, 200);
+  text-align: center;
+  padding: 20px;
+}
+
+.skill-card img {
+  width: 150px;
+}
